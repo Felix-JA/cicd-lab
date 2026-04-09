@@ -9,7 +9,7 @@ app.get('/health', (req, res) => {
 });
 
 app.get('/api/message', (req, res) => {
-  res.json({ message: 'Hola desde el Backend!, Pipeline CI/CD', timestamp: new Date() });
+  res.json({ message: 'Hola desde el Backend!, Pipeline CI/CD, funcionando correctamente', timestamp: new Date() });
 });
 
 app.listen(PORT, '0.0.0.0', () => {
